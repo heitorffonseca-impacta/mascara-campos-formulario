@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Máscara para Formulário</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="" method="POST">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="cpf" class="form-label font-weight-light">CPF</label>
+                            <input type="text" class="form-control cpf" id="cpf">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="date" class="form-label font-weight-light">Data</label>
+                            <input type="text" class="form-control date" id="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="singleTime" class="form-label font-weight-light">Hora Simples</label>
+                            <input type="text" class="form-control singleTime" id="singleTime">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="fullTime" class="form-label font-weight-light">Hora Completa</label>
+                            <input type="text" class="form-control fullTime" id="fullTime">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="dateTime" class="form-label font-weight-light">Data Hora</label>
+                            <input type="text" class="form-control dateTime" id="dateTime">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="cep" class="form-label font-weight-light">CEP</label>
+                            <input type="text" class="form-control cep" id="cep">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="rg" class="form-label font-weight-light">RG</label>
+                            <input type="text" class="form-control rg" id="rg">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="cnpj" class="form-label font-weight-light">CNPJ</label>
+                            <input type="text" class="form-control cnpj" id="cnpj">
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-outline-secondary btn-block">Submit</button>
+            </form>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/utils.js"></script>
+    </body>
+</html>
